@@ -5,5 +5,11 @@
   "[jinja-sql]": {
     "editor.defaultFormatter": "dorzey.vscode-sqlfluff",
     "editor.formatOnSave": false
-  }
+  },
+  "dbt.profilesDirOverride": "${workspaceFolder}/.vscode",
+  "dbt.dbtPythonPathOverride": "${workspaceFolder}/.meltano/utilities/dbt-duckdb/venv/bin/python",
+  "files.associations": {
+      "*.sql": "jinja-sql"
+  },
+  "dbt.queryLimit": 500
 }
